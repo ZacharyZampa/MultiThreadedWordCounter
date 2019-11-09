@@ -7,3 +7,5 @@ With the way it is currently set up it takes about 1.23 seconds (1233 millisecon
 
 When running the 4.349MB (without user prompting in Debug Mode with 4 cores) the program gives these stats: 2.83user 0.68system 0:01.35elapsed 259%CPU
 
+
+Disclaimer: The code for actually timing the duration of each count was merely just ripped from the internet, but the rest was written by me.
