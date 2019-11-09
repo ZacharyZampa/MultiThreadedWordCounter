@@ -1,10 +1,10 @@
 /*
- * Copyright(C) 2019 zampaze@miamioh.edu
+ * Copyright(C) 2019 zackzampa@gmail.com Zachary Zampa
  */
 
 /* 
- * File:   zampaze_hw6.cpp
- * Author: zampaze
+ * File:   main.cpp
+ * Author: Zachary Zampa
  *
  * Created on October 16, 2019, 6:33 PM
  */
@@ -253,10 +253,10 @@ int main(int argc, char** argv) {
         // Get duration. Substart timepoints to  
         // get durarion. To cast it to proper unit 
         // use duration cast method 
-        auto duration = duration_cast<microseconds>(stop - start); 
+        auto duration = duration_cast<milliseconds>(stop - start); 
   
         cout << "Time taken by function: "
-            << duration.count() << " microseconds" << endl; 
+            << duration.count() << " milliseconds" << endl; 
 
         std::cout << std::endl << instruct << std::endl;  // prompt for next
         
